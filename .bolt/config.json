@@ -1,17 +1,17 @@
 {
   "preview": {
     "port": 5173,
-    "command": "npm run dev",
-    "timeout": 10000,
-    "protocol": "http"
+    "open": true,
+    "host": "localhost"
   },
   "build": {
-    "command": "npm run build",
-    "output": "dist"
+    "outDir": "dist",
+    "target": "esnext",
+    "sourcemap": true
   },
   "env": {
-    "VITE_SUPABASE_URL": "https://your-project.supabase.co",
-    "VITE_SUPABASE_ANON_KEY": "your-anon-key",
-    "VITE_STRIPE_PUBLISHABLE_KEY": "your-stripe-key"
+    "VITE_SUPABASE_URL": "",
+    "VITE_SUPABASE_ANON_KEY": "",
+    "VITE_STRIPE_PUBLISHABLE_KEY": ""
   }
 }
