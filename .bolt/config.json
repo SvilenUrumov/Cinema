@@ -1,0 +1,17 @@
+{
+  "preview": {
+    "port": 5173,
+    "command": "npm run dev",
+    "timeout": 10000,
+    "protocol": "http"
+  },
+  "build": {
+    "command": "npm run build",
+    "output": "dist"
+  },
+  "env": {
+    "VITE_SUPABASE_URL": "https://your-project.supabase.co",
+    "VITE_SUPABASE_ANON_KEY": "your-anon-key",
+    "VITE_STRIPE_PUBLISHABLE_KEY": "your-stripe-key"
+  }
+}
